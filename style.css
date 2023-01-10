@@ -1,0 +1,192 @@
+  
+
+  .banner-image1 {
+        background-image: url('imagenes/pngwing.com.png');
+       background-size: cover; 
+      }
+    .logo{
+max-width:80%;
+width: 100%;
+height: auto;
+}
+/* .imgcarusel{
+    height:90%;
+} */
+.service-icon{
+    margin:auto;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: o.3s linear;
+    color: #ddd;
+}
+.service-icon i{
+    line-height: 60px;
+    transform: rotate(-45deg);
+    font-size: 30px;
+}
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+service-box{
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+/* nuevos servicios */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.theme-text {
+  color:  #2980b9;;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+}
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  color: white;
+}
+.card a :hover {
+  color: blue;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  background:  #2980b9;;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover::before {
+  left: 0%;
+  color: white;
+}
+.container-fluid {
+  background-image: url("blob-scene-haikei.svg");
+  background-position: center;
+  background-size: cover;
+}
+#ListaMunicipios{
+    margin-bottom: 0;
+    float: inline-end;
+}
+#ListaMunicipios ul li{
+    color: #fff;
+}
+
+/* footer and social media*/
+footer{
+    width: 100%;
+    height: auto;
+    background: #2980b9;
+   
+}
+.copy{
+    text-align: center;
+    font-size: 90%;
+    color: #ddd;
+    letter-spacing: 1px;
+
+
+}
+
+.middle{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+    
+}
+.btnIcon{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background:#f1f1f1;
+    margin: 25px 10px auto 10px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15 -5px #00000070;
+    color: #f1f1f1;
+    overflow: hidden;
+    position: relative;
+    
+    
+    
+
+
+}
+.btnIcon i{
+    line-height: 75px;
+    font-size: 28px;
+    transition: 0.2s linear;
+    color: #2980b9;
+}
+.btnIcon:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+
+}
+.btnIcon::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #82ccdd;
+    transform: rotate(45deg);
+    left: -110%;
+    top:90%;
+}
+.btnIcon:hover::before{
+    animation: aaa 0.7s 1;
+    top:-10%;
+    left: -10%;
+}
+.logof{
+   
+    
+    margin-bottom: 30px;
+    margin-left: 620px;
+    padding-top: 50px;
+    height: 90px;
+    width: 90px;
+    
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+    }
