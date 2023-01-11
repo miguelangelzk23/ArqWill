@@ -98,8 +98,7 @@ service-box{
 }
 
 /* footer and social media*/
-footer{
-    width: 100%;
+#contacto{
     height: auto;
     background: #2980b9;
    
@@ -117,7 +116,6 @@ footer{
     position: relative;
     top:50%;
     transform: translateY(-50%);
-    width: 100%;
     text-align: center;
 
     
@@ -133,11 +131,6 @@ footer{
     color: #f1f1f1;
     overflow: hidden;
     position: relative;
-    
-    
-    
-
-
 }
 .btnIcon i{
     line-height: 75px;
@@ -172,7 +165,6 @@ footer{
     margin-left: 620px;
     padding-top: 50px;
     height: 90px;
-    width: 90px;
     
 }
 @keyframes aaa{
