@@ -182,3 +182,7 @@ service-box{
         top: -10%;
     }
     }
+    .img-size{
+        width: 90%;
+        height: auto;
+    }
